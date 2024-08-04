@@ -19,15 +19,16 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository:
    git clone https://github.com/abhi15patil/Containerize_Flask_webapp.git
+
    cd Containerize_Flask_webapp
 
-2. Build the Docker image:
+3. Build the Docker image:
    docker build -t flask_app .
 
-3. Run the Docker container:
+4. Run the Docker container:
    docker run -p 5000:5000 flask_app
 
-4. Access the web application:
+5. Access the web application:
 
    Open your web browser and go to http://localhost:5000.
 
@@ -41,7 +42,7 @@ docker pull abhishek9284/flask-webapp:1
 
 To run the image from Docker Hub:
 
-docker run -p 5000:5000 abhishek9284/flask-webapp:latest
+docker run -p 5000:5000 abhishek9284/flask-webapp:1
 
 ## Author
 Abhishek Gaware
