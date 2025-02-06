@@ -1,5 +1,6 @@
 # Python image
-FROM python:3.9-slim
+FROM python:3.9-alpine
+
 
 # Working Dir in container
 WORKDIR /flask_app
