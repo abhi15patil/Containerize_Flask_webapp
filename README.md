@@ -45,6 +45,6 @@ To run the image from Docker Hub:
 docker run -p 5000:5000 abhishek9284/flask-webapp:1
 
 ## Author
-Abhishek Gaware
+Abhishek Ganpat Gaware
 
 
